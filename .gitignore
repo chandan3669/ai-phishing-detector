@@ -25,7 +25,7 @@ MANIFEST
 venv/
 env/
 ENV/
-.venv
+.venv/
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -46,7 +46,11 @@ data/processed/*
 !data/processed/.gitkeep
 *.csv
 *.eml
+
+# Allow requirements.txt (important)
+# Ignore all txt files EXCEPT requirements.txt
 *.txt
+!requirements.txt
 
 # Models
 models/*.joblib
