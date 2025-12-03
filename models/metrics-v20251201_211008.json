@@ -1,0 +1,23 @@
+{
+  "version": "20251201_211008",
+  "timestamp": "2025-12-01T21:10:08.199028",
+  "training_samples": 12,
+  "test_samples": 4,
+  "cv_accuracy_mean": 1.0,
+  "cv_accuracy_std": 0.0,
+  "test_accuracy": 1.0,
+  "test_precision": 1.0,
+  "test_recall": 1.0,
+  "test_f1": 1.0,
+  "test_roc_auc": 1.0,
+  "confusion_matrix": [
+    [
+      2,
+      0
+    ],
+    [
+      0,
+      2
+    ]
+  ]
+}
